@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for Video.js player can remain below */
+.video-js.vjs-custom-theme {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Big play button */
+.video-js .vjs-big-play-button {
+  background-color: #4361ee;
+  border: none;
+  border-radius: 50%;
+  height: 4em;
+  width: 4em;
+  line-height: 4em;
+  margin-top: -2em;
+  margin-left: -2em;
+  color: white;
+  transition: all 0.3s ease;
+  opacity: 0.9;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.video-js:hover .vjs-big-play-button,
+.video-js .vjs-big-play-button:focus {
+  background-color: #4cc9f0;
+  transform: scale(1.1);
+}
+
+/* Control bar styling */
+.video-js .vjs-control-bar {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.video-js .vjs-slider {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.video-js .vjs-play-progress {
+  background-color: #4cc9f0;
+}
+
+.video-js .vjs-volume-level {
+  background-color: #4cc9f0;
+}

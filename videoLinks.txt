@@ -1,0 +1,2 @@
+{"url":"http://localhost:8000/uploads/hls-videos/1a25ff63-991c-4928-a59b-5be156a1a1da/playlist.m3u8","id":"1a25ff63-991c-4928-a59b-5be156a1a1da","uploadDate":"2025-04-26T15:38:57.930Z","fileSize":0,"duration":0,"fileName":"video-1a25ff63"}
+{"url":"http://localhost:8000/uploads/hls-videos/347f97f1-fa74-4f51-8b3c-28688abe06cb/playlist.m3u8","id":"347f97f1-fa74-4f51-8b3c-28688abe06cb","uploadDate":"2025-04-26T15:38:57.930Z","fileSize":0,"duration":0,"fileName":"video-347f97f1"}
